@@ -1,0 +1,103 @@
+body {
+
+margin: 0 auto;
+text-align: center;
+
+
+}
+
+
+@font-face {
+    font-family: 'Press Start 2p';
+  }
+
+button{
+  text-align: center;
+	display: inline-block;
+	margin:5px;
+    font-weight: bold;
+    padding: 10px 0 10px 10px ;
+    background-color: lightgray;
+    text-shadow: -1px -1px black, 1px 1px white;
+    color: gray;
+    -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+    box-shadow: 0 .2em gray; 
+    cursor: pointer;
+    width: 120px;
+    
+
+}
+
+button:active {
+
+    box-shadow: none;
+	position: relative;
+	top: .2em;
+
+}
+
+
+
+#game-container {
+ 
+background: rgba(0, 0, 0, 0.404); 
+position: relative;
+top: 740px;
+margin: 0 auto;
+border-radius: 10px;
+padding: 16px;
+width: 50%;
+height: 150px;
+
+
+
+}
+
+#description {
+
+color: white;
+position: relative;
+top: 50px;
+text-align: center;
+font-size: 19px;
+
+
+}
+
+#title {
+
+position: relative;
+bottom: 20px;
+left: 30px;
+top: 1px;
+}
+
+.click-items {
+
+    cursor: pointer;
+
+}
+
+#inventoryItem {
+
+width: 120px;
+margin: 16px;
+
+}
+
+#game-buttons {
+
+position: relative;
+top: 70px;
+
+}
+
+#inventoryItem {
+
+    position: relative;
+    left: 600px;
+
+}
